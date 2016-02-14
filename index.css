@@ -1,0 +1,185 @@
+@media (min-width: 1200px) {
+	
+}
+
+.body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+	max-width: 800px;
+}
+
+.header {
+	max-width: 800px;
+	text-align: center;
+}
+
+.content {
+	max-width: 800px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.main-nav {
+	border-bottom: 1px dotted #ccc;
+	border-width: 1px 0;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-list {
+	padding: 0px;
+}
+
+.main-nav li {
+	display: inline-block;
+}
+
+.main-nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #000;
+	text-decoration: underline;
+}
+
+.main-nav a:hover {
+	color: #ccc;
+}
+
+.section {
+	display: block;
+	text-align: center;
+	width: 290px;
+}
+
+.section p {
+	width: inherit;
+}
+
+.cube {
+	padding: 10px;
+}
+
+.wrapper {
+	height: 250px;
+	width: 250px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.block {
+	height: 250px;
+	width: 250px;
+	background: #ccc;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid #ccc;
+	opacity: .65;
+}
+
+.block:hover {
+	opacity: 1;
+}
+
+.art-block {
+	background-image: url("assets/finished hands crop.png");
+}
+
+.design-block {
+	background-image: url("assets/design crop.png");
+}
+
+.dev-block {
+	background-image: url("assets/codesample crop.png");
+}
+
+.games-block {
+	background-image: url("assets/eet crop.png");
+}
+
+.nusys-block {
+	background-image: url("assets/nusys crop.png");
+}
+
+.tag-block {
+	background-image: url("assets/tagnobel crop.png");
+}
+
+.ui-block {
+	background-image: url("assets/ui crop.png");
+}
+
+.sideprj-block {
+	background-image: url("assets/visions crop.png");
+}
+
+.bgd-block {
+	background-image: url("assets/games/bgd.jpg")
+}
+
+.twine-block {
+	background-image: url("assets/games/twine.png");
+}
+
+.eet-block {
+	background-image: url("assets/eet crop.png");
+}
+
+.spaces-block {
+	background-image: url("assets/games/spaces.jpg");
+}
+
+.square {
+	height: 10px;
+	width: 10px;
+	background: #62bdc5;
+}
+
+.list-item {
+	width: 50px;
+	text-align: center;
+}
+
+.content {
+	padding: 25px;
+}
+
+.footer {
+	border-top: 1px dotted #ccc;
+	border-width: 1px 0;
+	text-align: center;
+	padding: 20px;
+}
+
+.footer p {
+	padding: 15x;
+	font-size: 10px;
+}
+
+.text a{
+	color: #ccc;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.special-link {
+	color: #000;
+}
+
+.pic {
+	padding: 25px;
+}
+
+.text img {
+	padding: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
