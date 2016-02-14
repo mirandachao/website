@@ -169,10 +169,6 @@
 	text-align: center;
 }
 
-.special-link {
-	color: #000;
-}
-
 .pic {
 	padding: 25px;
 }
@@ -180,6 +176,32 @@
 .text img {
 	padding: 25px;
 	display: block;
+	width: 100%;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;	
+}
+
+.text .sprites {
+	width: 12%;
+}
+
+.text .sml-img {
+	width: 25%;
+}
+
+.text .med-img {
+	width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.text .sprites {
+		width: 30%;
+	}
+
+	.text .sml-img {
+		width: 50%;
+	}
+	.text .med-img {
+		width: 75%;
+	}
 }
