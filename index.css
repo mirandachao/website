@@ -24,7 +24,7 @@
 }
 
 .main-nav {
-	border-bottom: 1px dotted #ccc;
+	border-bottom: 1px dotted #666;
 	border-width: 1px 0;
 	text-align: center;
 	list-style: none;
@@ -48,7 +48,7 @@
 }
 
 .main-nav a:hover {
-	color: #ccc;
+	color: #666;
 }
 
 .section {
@@ -152,7 +152,7 @@
 }
 
 .footer {
-	border-top: 1px dotted #ccc;
+	border-top: 1px dotted #666;
 	border-width: 1px 0;
 	text-align: center;
 	padding: 20px;
@@ -164,7 +164,7 @@
 }
 
 .text a{
-	color: #ccc;
+	color: #666;
 	text-decoration: underline;
 	text-align: center;
 }
