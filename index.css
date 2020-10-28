@@ -1,5 +1,5 @@
 @media (min-width: 1200px) {
-	
+
 }
 
 .body {
@@ -61,6 +61,13 @@
 	width: inherit;
 }
 
+.double-section {
+	display: block;
+	text-align: center;
+	width: 540px;
+	padding: 0 0 25px 0;
+}
+
 .cube {
 	padding: 10px;
 }
@@ -68,6 +75,13 @@
 .wrapper {
 	height: 250px;
 	width: 250px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.double-wrapper {
+	height: 250px;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 10px;
@@ -81,35 +95,70 @@
 	background-size: cover;
 	border-radius: 5px 5px 5px 5px;
 	border: 1px solid #ccc;
-	opacity: .65;
+	animation: fadeOut .5s both;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.double-block {
+	height: 250px;
+	width: 500px;
+	background: #ccc;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid #ccc;
+	animation: fadeOut .5s both;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.double-block:hover {
+	animation: fadeIn .5s both;
 }
 
 .block:hover {
-	opacity: 1;
+	animation: fadeIn .5s both;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: .75;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: .75;
+	}
 }
 
 .art-block {
-	background-image: url("assets/finished hands crop.png");
+	background-image: url("assets/art and illustration/art tile image.png");
 }
 
 .design-block {
-	background-image: url("assets/design crop.png");
+	background-image: url("assets/ui/design tile image.png");
 }
 
-.dev-block {
-	background-image: url("assets/codesample crop.png");
+.video-block {
+	background-image: url("assets/videos/video tile image.png");
 }
 
 .games-block {
-	background-image: url("assets/eet crop.png");
+	background-image: url("assets/games/games tile image.jpg");
 }
 
-.nusys-block {
-	background-image: url("assets/nusys crop.png");
+.destiny-block {
+	background-image: url("assets/ui/vv logo.jpg");
 }
 
-.tag-block {
-	background-image: url("assets/tagnobel crop.png");
+.hab-block {
+	background-image: url("assets/ui/hab tile.png");
 }
 
 .ui-block {
@@ -178,7 +227,7 @@
 	display: block;
 	width: 100%;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
 }
 
 .text .sprites {
@@ -194,14 +243,34 @@
 }
 
 @media only screen and (max-width: 600px) {
-	.text .sprites {
-		width: 30%;
+	.double-block {
+		height: 250px;
+		width: 250px;
+		background: #ccc;
+		background-position: center center;
+		background-size: cover;
+		border-radius: 5px 5px 5px 5px;
+		border: 1px solid #ccc;
+		animation: fadeOut .5s both;
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+	}
+	.double-wrapper {
+		height: 250px;
+		width: 250px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 10px;
+	}
+	.double-section {
+		display: block;
+		text-align: center;
+		width: 290px;
+	}
+	.destiny-block {
+		background-image: url("assets/ui/vv logo.jpg");
 	}
 
-	.text .sml-img {
-		width: 50%;
-	}
-	.text .med-img {
-		width: 75%;
+	.hab-block {
+		background-image: url("assets/tagnobel crop.png");
 	}
 }
