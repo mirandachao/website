@@ -55,6 +55,7 @@
 	display: block;
 	text-align: center;
 	width: 290px;
+	padding: 0 0 10px 0;
 }
 
 .section p {
@@ -64,8 +65,8 @@
 .double-section {
 	display: block;
 	text-align: center;
-	width: 540px;
-	padding: 0 0 25px 0;
+	width: 580px;
+	padding: 0 0 10px 0;
 }
 
 .cube {
@@ -81,7 +82,7 @@
 }
 
 .double-wrapper {
-	height: 250px;
+	height: 200px;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 10px;
@@ -100,8 +101,8 @@
 }
 
 .double-block {
-	height: 250px;
-	width: 500px;
+	height: 200px;
+	width: 540px;
 	background: #ccc;
 	background-position: center center;
 	background-size: cover;
@@ -145,8 +146,8 @@
 	background-image: url("assets/ui/design tile image.png");
 }
 
-.video-block {
-	background-image: url("assets/videos/video tile image.png");
+.personal-block {
+	background-image: url("assets/personal/comic.png");
 }
 
 .games-block {
@@ -169,26 +170,39 @@
 	background-image: url("assets/visions crop.png");
 }
 
-.bgd-block {
-	background-image: url("assets/games/bgd.jpg")
+.itchio-block {
+	background-image: url("assets/games/itchio.png")
 }
 
-.twine-block {
+.twine1-block {
 	background-image: url("assets/games/twine.png");
 }
 
-.eet-block {
-	background-image: url("assets/eet crop.png");
+.twine2-block {
+	background-image: url("assets/games/melt.png");
 }
 
-.spaces-block {
-	background-image: url("assets/games/spaces.jpg");
+.lark-block {
+	background-image: url("assets/games/lark.png");
+}
+
+.tales-block {
+	background-image: url("assets/games/scene2.png");
 }
 
 .square {
 	height: 10px;
 	width: 10px;
 	background: #62bdc5;
+}
+
+.section-header {
+	display: block;
+	text-align: center;
+	width: 540px;
+	text-decoration:overline;
+	margin: 0 0 10px 0;
+	/*border: 1px dotted black;*/
 }
 
 .list-item {
@@ -272,5 +286,17 @@
 
 	.hab-block {
 		background-image: url("assets/tagnobel crop.png");
+	}
+
+	.twine1-block {
+		background-image: url("assets/games/twine.png");
+	}
+
+	.twine2-block {
+		background-image: url("assets/games/melt.png");
+	}
+
+	.itchio-block {
+		background-image: url("assets/games/itchio.png")
 	}
 }
