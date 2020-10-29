@@ -123,7 +123,7 @@
 
 @keyframes fadeIn {
 	0% {
-		opacity: .75;
+		opacity: .85;
 	}
 	100% {
 		opacity: 1;
@@ -135,7 +135,7 @@
 		opacity: 1;
 	}
 	100% {
-		opacity: .75;
+		opacity: .85;
 	}
 }
 
@@ -163,14 +163,6 @@
 	background-image: url("assets/ui/hab tile.png");
 }
 
-.ui-block {
-	background-image: url("assets/ui crop.png");
-}
-
-.sideprj-block {
-	background-image: url("assets/visions crop.png");
-}
-
 .itchio-block {
 	background-image: url("assets/games/itchio.png")
 }
@@ -191,6 +183,14 @@
 	background-image: url("assets/games/scene2.png");
 }
 
+.behance-block {
+	background-image: url("assets/art and illustration/behance.png");
+}
+
+.vimeo-block {
+	background-image: url("assets/art and illustration/vimeo.png");
+}
+
 .square {
 	height: 10px;
 	width: 10px;
@@ -201,8 +201,8 @@
 	display: block;
 	text-align: center;
 	width: 540px;
-	text-decoration:overline;
-	margin: 0 0 10px 0;
+	/*text-decoration:overline;*/
+	margin: 0 0 5px 0;
 	/*border: 1px dotted black;*/
 }
 
