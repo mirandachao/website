@@ -286,7 +286,7 @@
 	}
 
 	.hab-block {
-		background-image: url("assets/tagnobel crop.png");
+		background-image: url("assets/ui/hab tile.png");
 	}
 
 	.twine1-block {
@@ -299,5 +299,13 @@
 
 	.itchio-block {
 		background-image: url("assets/games/itchio.png")
+	}
+
+	.behance-block {
+		background-image: url("assets/art and illustration/behance.png");
+	}
+
+	.vimeo-block {
+		background-image: url("assets/art and illustration/vimeo.png");
 	}
 }
