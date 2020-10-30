@@ -89,10 +89,21 @@
 	margin-bottom: 10px;
 }
 
+.img-overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ccc;
+	opacity: .5;
+	height: inherit;
+	font-size: 24px;
+	color: black;
+}
+
 .block {
 	height: 250px;
 	width: 250px;
-	background: #ccc;
+	background-color: #ccc;
 	background-position: center center;
 	background-size: cover;
 	border-radius: 5px 5px 5px 5px;
@@ -286,7 +297,7 @@
 	}
 
 	.hab-block {
-		background-image: url("assets/tagnobel crop.png");
+		background-image: url("assets/ui/hab tile.png");
 	}
 
 	.twine1-block {
@@ -299,5 +310,13 @@
 
 	.itchio-block {
 		background-image: url("assets/games/itchio.png")
+	}
+
+	.behance-block {
+		background-image: url("assets/art and illustration/behance.png");
+	}
+
+	.vimeo-block {
+		background-image: url("assets/art and illustration/vimeo.png");
 	}
 }
