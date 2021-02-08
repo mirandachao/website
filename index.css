@@ -327,4 +327,11 @@
 	.vimeo-block {
 		background-image: url("assets/art and illustration/vimeo.png");
 	}
+	.zine1block {
+		background-image: url("assets/personal/vol1.png");
+	}
+
+	.zine2block {
+		background-image: url("assets/personal/vol2.png");
+	}
 }
